@@ -42,6 +42,5 @@ to implement the above.
   enough to demonstrate how you would add styling to specific page elements.)
 * Implement a way to inject custom page titles from view templates and integrate it 
   in the manuscript display page and admin/manuscripts/show.
-* Upgrade to Rspec 3
 * Introduce a Docker/docker-compose such that a developer can start the development 
   stack (e.g. Mongo) without having it installed directly.
