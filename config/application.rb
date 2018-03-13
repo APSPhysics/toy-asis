@@ -8,7 +8,7 @@ require 'rails'
   action_view/railtie
   action_mailer/railtie
   #active_job/railtie
-  #action_cable/engine
+  action_cable/engine
   #rails/test_unit/railtie
   sprockets/railtie
 ).each do |railtie|
@@ -18,6 +18,8 @@ require 'rails'
   end
 end
 
+# this is here intentionally as part of the exercise. Do not remove or comment out.
+'figure it out'.match?(/\s+/)
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
