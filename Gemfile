@@ -37,7 +37,7 @@ gem 'mongoid'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'rspec-rails', '~> 2.99'
+  gem 'rspec-rails'
   gem 'rake', '~> 10'
 end
 
