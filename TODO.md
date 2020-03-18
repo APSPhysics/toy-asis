@@ -6,7 +6,9 @@ Please note, the ```/admin``` namespace is just there to verify basic sanity and
 
 ## Instructions
 
-* First, there are some existing specs that have been intentionally left incomplete/failing/pending. Fix them.
+* Add a `docker-compose.yml` file such that a developer can start the development 
+  stack (e.g. Mongo) without having it installed directly.
+* There are some existing specs that have been intentionally left incomplete/failing/pending. Fix them.
 * Implement the status inquiry feature (see below) with specs.
 
 --------------------------- 
@@ -42,5 +44,4 @@ to implement the above.
   enough to demonstrate how you would add styling to specific page elements.)
 * Implement a way to inject custom page titles from view templates and integrate it 
   in the manuscript display page and admin/manuscripts/show.
-* Introduce a Docker/docker-compose such that a developer can start the development 
-  stack (e.g. Mongo) without having it installed directly.
+
