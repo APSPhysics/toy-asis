@@ -8,7 +8,7 @@ We want to implement a simple author inquiry system for authors to view the stat
 ### Requirements
 
 * A running MongoDB Server (http://www.mongodb.org) - Install if necessary.
-* Ruby 2.4
+* Ruby >= 2.6.3
 
 ### Setup Instructions
 
